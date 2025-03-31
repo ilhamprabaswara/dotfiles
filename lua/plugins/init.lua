@@ -1,5 +1,13 @@
 return {
   { 
+    "folke/tokyonight.nvim",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			vim.cmd([[colorscheme tokyonight]])
+		end,
+  },
+  { 
 		"neoclide/coc.nvim", 
 		branch = "release",
 		config = function()
@@ -31,14 +39,6 @@ return {
   "airblade/vim-gitgutter",
   "ctrlpvim/ctrlp.vim",
   "preservim/nerdcommenter",
-  { 
-    "folke/tokyonight.nvim",
-		lazy = false,
-		priority = 1000,
-		config = function()
-			vim.cmd([[colorscheme tokyonight]])
-		end,
-  },
 	{
     "nvim-lualine/lualine.nvim",
     event = "VeryLazy",
