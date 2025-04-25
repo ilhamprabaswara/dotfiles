@@ -81,7 +81,7 @@ return {
         sections = {
           lualine_a = {'mode'},
           lualine_b = {'branch', 'diff', 'diagnostics'},
-          lualine_c = {'filename'},
+          lualine_c = {{'filename', path = 1}},
           lualine_x = {'encoding', 'fileformat', 'filetype'},
           lualine_y = {'progress'},
           lualine_z = {'location'}
@@ -123,4 +123,24 @@ return {
 
 	},
   "ryanoasis/vim-devicons",
+	{
+    "lukas-reineke/indent-blankline.nvim",
+    main = "ibl",
+    ---@module "ibl"
+    ---@type ibl.config
+    opts = {
+			indent = {
+				-- character to use for indent guides
+        char = "│",
+        -- optional: adjust the repeat spacing manually, e.g., use 2 spaces instead of 4
+        tab_char = "│", -- alternative if using tabs
+      },
+      whitespace = {
+				remove_blankline_trail = false, -- keep whitespace markers
+			},
+      scope = {
+				enabled = true,
+      },
+		},
+	}
 }

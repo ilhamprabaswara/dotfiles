@@ -1,8 +1,9 @@
 {
-  "coc.nvim": { "branch": "release", "commit": "7350645e1233d79aeed0c60a76f50c74ab9645ef" },
+  "coc.nvim": { "branch": "release", "commit": "c6cd3ed431a2fb4367971229198f1f1e40257bce" },
   "ctrlp.vim": { "branch": "master", "commit": "475a864e7f01dfc5c93965778417cc66e77f3dcc" },
+  "indent-blankline.nvim": { "branch": "master", "commit": "005b56001b2cb30bfa61b7986bc50657816ba4ba" },
   "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
-  "lualine.nvim": { "branch": "master", "commit": "1517caa8fff05e4b4999857319d3b0609a7f57fa" },
+  "lualine.nvim": { "branch": "master", "commit": "15884cee63a8c205334ab13ab1c891cd4d27101a" },
   "nerdcommenter": { "branch": "master", "commit": "66c07e4083ab02ed2540ac289cc602c70b858c13" },
   "nerdtree": { "branch": "master", "commit": "9b465acb2745beb988eff3c1e4aa75f349738230" },
   "nerdtree-git-plugin": { "branch": "master", "commit": "807307612557ce93204195d00505992d2d605cee" },
