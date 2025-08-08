@@ -18,7 +18,24 @@
 vim.g.have_nerd_font = true
 
 vim.opt.termguicolors = true -- True color support
+vim.opt.number = true
 vim.opt.relativenumber = true
+-- vim.opt.mouse = "a"
+vim.opt.showmode = false
+vim.opt.clipboard = "unnamedplus" -- Sync with system clipboard
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.signcolumn = "yes"
+-- vim.opt.updatetime = 250
+-- vim.opt.timeoutlen = 1000
+-- vim.opt.splitright = true
+-- vim.opt.splitbelow = true
+-- vim.opt.inccommand = "split" -- Preview substitutions live, as you type!
+vim.opt.cursorline = true -- Show which line your cursor is on
+-- vim.opt.colorcolumn = "100"
+-- vim.opt.cursorlineopt = "number"
+-- vim.opt.confirm = true -- Confirm to save changes before exiting modified buffer
+-- vim.opt.hlsearch = false
 
 -- Indentation
 vim.opt.tabstop = 2 -- How many spaces are shown per tab
