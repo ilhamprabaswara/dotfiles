@@ -9,7 +9,8 @@ return {
 			{ "<c-k>", "<c-k>", ft = "fzf", mode = "t", nowait = true },
 			{ "<leader>fb", "<cmd>FzfLua buffers sort_mru=true sort_lastused=true<cr>", desc = "Buffers" },
 			{ "<leader>ff", "<cmd>FzfLua files<cr>", desc = "Find Files (Root Dir)" },
-			{ "<leader>fg", "<cmd>FzfLua git_files<cr>", desc = "Find Files (git-files)" },
+			-- { "<leader>fg", "<cmd>FzfLua git_files<cr>", desc = "Find Files (git-files)" },
+			{ "<leader>fg", "<cmd>FzfLua live_grep<cr>", desc = "Grep (Root Dir)" },
 			{ "<leader>fr", "<cmd>FzfLua oldfiles<cr>", desc = "Recent" },
 			-- git
 			{ "<leader>gc", "<cmd>FzfLua git_commits<CR>", desc = "Commits" },
@@ -20,7 +21,6 @@ return {
 			{ "<leader>sC", "<cmd>FzfLua commands<cr>", desc = "Commands" },
 			{ "<leader>sd", "<cmd>FzfLua diagnostics_document<cr>", desc = "Document Diagnostics" },
 			{ "<leader>sD", "<cmd>FzfLua diagnostics_workspace<cr>", desc = "Workspace Diagnostics" },
-			{ "<leader>sg", "<cmd>FzfLua live_grep<cr>", desc = "Grep (Root Dir)" },
 			{ "<leader>sm", "<cmd>FzfLua marks<cr>", desc = "Jump to Mark" },
 			{ "<leader>sq", "<cmd>FzfLua quickfix<cr>", desc = "Quickfix List" },
 		},
