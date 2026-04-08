@@ -57,3 +57,11 @@ vim.lsp.enable({
 	"tailwindcss",
 	"vtsls",
 })
+
+vim.api.nvim_create_autocmd("LspAttach", {
+	callback = function(ev)
+		vim.keymap.set("n", "gd", vim.lsp.buf.definition)
+		vim.keymap.set("n", "gD", vim.lsp.buf.declaration)
+		vim.keymap.set("n", "grt", vim.lsp.buf.type_definition)
+	end,
+})
